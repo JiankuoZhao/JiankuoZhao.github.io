@@ -1,0 +1,5 @@
+type = "pdf"
+title = "CV"
+source = "/cv.pdf"
+height = "1000px"
+downloadable = false

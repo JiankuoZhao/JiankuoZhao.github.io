@@ -1,0 +1,68 @@
+[site]
+title = "Jiankuo Zhao"
+description = "PhD student at the Institute of Automation, Chinese Academy of Sciences."
+url = "https://JiankuoZhao.github.io"
+favicon = "/favicon.svg"
+last_updated = "June 11, 2026"
+
+[author]
+name = "Jiankuo Zhao"
+native_name = "赵建阔"
+title = "PhD Student"
+institution = "Institute of Automation, Chinese Academy of Sciences"
+avatar = "/avatar.png"
+
+[social]
+# Contact information (leave blank or delete to hide)
+
+email = "zhaojiankuo2024@ia.ac.cn"
+emails = [
+  "zhaojiankuo2024@ia.ac.cn",
+  "zjk_csu@outlook.com",
+]
+location = ""
+# location_url = "https://maps.google.com"
+location_details = []
+google_scholar = "https://scholar.google.com/citations?user=uL9EQoAAAAAJ&hl=zh-CN&oi=ao"
+# orcid = "https://orcid.org"
+github = "https://github.com/JiankuoZhao"
+linkedin = ""
+wechat = "zjk13621843297"
+
+[features]
+# Show a like button on the about page
+enable_likes = true
+
+# Display all subpages on a single page
+enable_one_page_mode = false
+
+[[navigation]]
+title = "About"
+type = "page"
+target = "about"
+href = "/"
+
+[[navigation]]
+title = "Publications"
+type = "page"
+target = "publications"
+href = "/publications"
+
+# [[navigation]]
+# title = "Teaching"
+# type = "page"
+# target = "teaching"
+# href = "/teaching"
+
+# [[navigation]]
+# title = "Awards"
+# type = "page"
+# target = "awards"
+# href = "/awards"
+
+# Enable this after replacing public/cv.pdf with Jiankuo Zhao's CV.
+# [[navigation]]
+# title = "CV"
+# type = "page"
+# target = "cv"
+# href = "/cv"
