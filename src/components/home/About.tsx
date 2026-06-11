@@ -20,8 +20,8 @@ export default function About({ content, title = 'About' }: AboutProps) {
                 <ReactMarkdown
                     components={{
                         h1: ({ children }) => <h1 className="text-3xl font-serif font-bold text-primary mt-8 mb-4">{children}</h1>,
-                        h2: ({ children }) => <h2 className="text-2xl font-serif font-bold text-primary mt-8 mb-4 border-b border-neutral-200 dark:border-neutral-800 pb-2">{children}</h2>,
-                        h3: ({ children }) => <h3 className="text-xl font-semibold text-primary mt-6 mb-3">{children}</h3>,
+                        h2: ({ children }) => <h2 className="text-lg font-semibold text-primary mt-6 mb-3 border-b border-neutral-200 dark:border-neutral-800 pb-2">{children}</h2>,
+                        h3: ({ children }) => <h3 className="text-base font-semibold text-primary mt-5 mb-2">{children}</h3>,
                         p: ({ children, node }) => {
                             // Check if paragraph only contains images
                             const hasOnlyImages = node?.children?.every(
